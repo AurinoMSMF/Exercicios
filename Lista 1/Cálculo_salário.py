@@ -1,0 +1,6 @@
+salariohora = float(input("Informe quanto ganha por hora:"))
+print()
+horastrabalhadas = int(input("Informe a quantidade mensal de trabalho:"))
+salariototal = (salariohora * horastrabalhadas)
+print()
+print("Resultado: %.1f" %(salariototal))

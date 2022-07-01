@@ -1,0 +1,6 @@
+ordem1 = input().split(" ")
+ordem2 = input().split(" ")
+ordem1 = list(sorted(ordem1))
+ordem2 = list(sorted(ordem2))
+print(ordem1[0],ordem1[1],ordem1[2])
+print(ordem2[0],ordem2[1],ordem2[2])
